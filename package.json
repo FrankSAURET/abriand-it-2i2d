@@ -1,0 +1,82 @@
+{
+  "name": "abriand-it-2i2d",
+  "displayName": "ABriand-IT-2I2D",
+  "description": "Pack d'extensions pour IT et 2I2D",
+  "version": "0.1.0",
+  "author": {
+    "name": "Frank SAURET",
+    "email": "frank.sauret.prof@gmail.com",
+    "url": "http://www.electropol.fr/"
+  },
+  "publisher": "electropol-fr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrankSAURET/abriand-it-2i2d"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "icon": "image/LogoAbriandIT2I2D.png",
+  "galleryBanner": {
+    "color": "#43C62B",
+    "theme": "dark"
+  },
+  "badges": [
+    {
+      "url": "https://badgen.net/github/stars/FrankSAURET/abriand-it-2i2d?icon=github",
+      "href": "https://github.com/FrankSAURET/abriand-it-2i2d/stargazers",
+      "description": "stars"
+    },
+    {
+      "url": "https://badgen.net/github/open-issues/FrankSAURET/abriand-it-2i2d?icon=github",
+      "href": "https://github.com/FrankSAURET/abriand-it-2i2d/issues",
+      "description": "open issues"
+    },
+    {
+      "url": "https://badgen.net/github/last-commit/FrankSAURET/abriand-it-2i2d?icon=github",
+      "href": "https://github.com/FrankSAURET/abriand-it-2i2d/commits/master",
+      "description": "last commit"
+    },
+    {
+      "url": "https://badgen.net/github/forks/FrankSAURET/abriand-it-2i2d?icon=github",
+      "href": "https://marketplace.visualstudio.com/items?itemName=electropol-fr.abriand-it-2i2d&ssr=false#overview",
+      "description": "forks"
+    },
+    {
+      "url": "https://badgen.net/github/license/FrankSAURET/abriand-it-2i2d?icon=github",
+      "href": "https://marketplace.visualstudio.com/items/electropol-fr.abriand-it-2i2d/license",
+      "description": "license"
+    }
+  ],
+  "keywords": [
+    "python",
+    "french",
+    "html",
+    "css",
+    "pico pi",
+    "it",
+    "2i2d",
+    "abriand",
+    "Education"
+  ],
+  "categories": [
+    "Extension Packs",
+    "Education"
+  ],
+  "extensionPack": [ 
+    "aaron-bond.better-comments",
+    "christian-kohler.path-intellisense",
+    "ecmel.vscode-html-css",
+    "KevinRose.vsc-python-indent",
+    "MS-CEINTL.vscode-language-pack-fr",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "njpwerner.autodocstring",
+    "royaction.color-manager",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "ms-vscode.live-server",
+    "intellsmi.comment-translate",
+    "raspberry-pi.raspberry-pi-pico"
+  ]
+}
