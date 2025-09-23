@@ -1,8 +1,8 @@
 {
   "name": "abriand-it-2i2d",
   "displayName": "ABriand IT-2I2D",
-  "description": "Pack d'extensions pour IT et 2I2D",
-  "version": "0.1.1",
+  "description": "Pack d'extension à destination des élèves d'IT et 2I2D du lycée Aristide Briand.",
+  "version": "0.1.3",
   "author": {
     "name": "Frank SAURET",
     "email": "frank.sauret.prof@gmail.com",
@@ -35,7 +35,7 @@
     },
     {
       "url": "https://badgen.net/github/last-commit/FrankSAURET/abriand-it-2i2d?icon=github",
-      "href": "https://github.com/FrankSAURET/abriand-it-2i2d/commits/master",
+      "href": "https://github.com/FrankSAURET/abriand-it-2i2d/commits/main",
       "description": "last commit"
     },
     {
