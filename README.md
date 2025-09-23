@@ -1,5 +1,5 @@
 # Pack d'Extension IT-2I2D
-Collection  d'extension pour travailler en IT et 2I2D.
+Collection  d'extensions pour travailler en IT et 2I2D.
 <p align="center">
 <a href="https://github.com/FrankSAURET/abriand-it-2i2d"><img src="https://badgen.net/vs-marketplace/v/electropol-fr.abriand-it-2i2d?icon=github" alt="vs-marketplace version"></a>
 <img src="https://badgen.net/vs-marketplace/i/electropol-fr.abriand-it-2i2d" alt="vs-marketplace installs">
