@@ -1,9 +1,6 @@
 # Change Log
 
-All notable changes to the "abriand-it-2i2d" extension pack will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## Released
+##### [0.1.6] - 13 février 2026
+* Suppression d'intellicode.
