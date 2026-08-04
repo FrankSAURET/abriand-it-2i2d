@@ -15,6 +15,7 @@ Collection  d'extensions pour travailler en IT et 2I2D.
 * Fournis les outils nécessaires pour développer correctement en **Python**. 
 * Fournis les outils pour programmer en **html** et **css**.
 * Fournis les outils nécessaire pour programmer les cartes **pico pi**
+* Fournis **Kablix** pour simuler les cartes arduino et pico pi.
 * Facilite le codage avec :
     * Indentation automatique, 
     * Extrait de code, 

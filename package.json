@@ -2,7 +2,7 @@
   "name": "abriand-it-2i2d",
   "displayName": "ABriand IT-2I2D",
   "description": "Pack d'extensions à destination des élèves d'IT et 2I2D du lycée Aristide Briand.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "Frank SAURET",
     "email": "frank.sauret.prof@gmail.com",
@@ -93,6 +93,7 @@
     "royaction.color-manager",
     "ms-vscode.live-server",
     "intellsmi.comment-translate",
+    "electropol-fr.kablix",
     "raspberry-pi.raspberry-pi-pico"
   ],
   "dependencies": {
