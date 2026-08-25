@@ -1,6 +1,10 @@
 # Change Log
 
 
+## [2026.8.0] - 25 août 2026
+* Ajout de l'extension `electropol-fr.drawio-diagrams-editor` au pack.
+* Passage de la version publique au format CalVer.
+
 ## Released
 ##### [0.2.1] - 4 août 2026
 * Ajout de l'extension `electropol-fr.kablix` au pack.

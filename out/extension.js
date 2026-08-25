@@ -5,7 +5,7 @@ exports.deactivate = deactivate;
 const vscode = require("vscode");
 const cp = require("child_process");
 const semver = require("semver");
-const CURRENT_VERSION = '0.1.7';
+const CURRENT_VERSION = '2026.8.0';
 async function detectAndSetPythonPath() {
     return new Promise((resolve) => {
         try {

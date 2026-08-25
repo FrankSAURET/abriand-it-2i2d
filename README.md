@@ -11,11 +11,19 @@ Collection  d'extensions pour travailler en IT et 2I2D.
 
 ![Logo](image/LogoAbriandIT2I2D.png)
 
+## Extensions incluses
+- `electropol-fr.drawio-diagrams-editor` pour créer et modifier des schémas Draw.io.
+- `electropol-fr.kablix` pour simuler des cartes Arduino et Raspberry Pi Pico.
+- Python, Pylance et outils d'indentation pour le développement Python.
+- HTML, CSS et Live Server pour le développement web.
+- Raspberry Pi Pico et outils de commentaires pour les activités d'IT et de 2I2D.
+
 ## Description
 * Fournis les outils nécessaires pour développer correctement en **Python**. 
 * Fournis les outils pour programmer en **html** et **css**.
 * Fournis les outils nécessaire pour programmer les cartes **pico pi**
 * Fournis **Kablix** pour simuler les cartes arduino et pico pi.
+* Fournis **drawio-diagrams-editor** pour créer et modifier des schémas Draw.io.
 * Facilite le codage avec :
     * Indentation automatique, 
     * Extrait de code, 

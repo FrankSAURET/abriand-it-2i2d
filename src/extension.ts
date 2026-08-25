@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 import * as cp from 'child_process';
 import * as semver from 'semver';
 
-const CURRENT_VERSION = '0.1.7';
+const CURRENT_VERSION = '2026.8.0';
 
 async function detectAndSetPythonPath(): Promise<void> {
     return new Promise((resolve) => {
