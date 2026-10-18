@@ -11,13 +11,6 @@ Collection  d'extensions pour travailler en IT et 2I2D.
 
 ![Logo](image/LogoAbriandIT2I2D.png)
 
-## Extensions incluses
-- `electropol-fr.drawio-diagrams-editor` pour créer et modifier des schémas Draw.io.
-- `electropol-fr.kablix` pour simuler des cartes Arduino et Raspberry Pi Pico.
-- Python, Pylance et outils d'indentation pour le développement Python.
-- HTML, CSS et Live Server pour le développement web.
-- Raspberry Pi Pico et outils de commentaires pour les activités d'IT et de 2I2D.
-
 ## Description
 * Fournis les outils nécessaires pour développer correctement en **Python**. 
 * Fournis les outils pour programmer en **html** et **css**.
@@ -30,4 +23,12 @@ Collection  d'extensions pour travailler en IT et 2I2D.
     * Amélioration des commentaires (voir exemples ci-dessous),
     * Aperçu de l'exécution du python.
     * Aperçu du résultat html et css en directe.
-    * traduction de l'aide contextuelle à la volée
+
+## Confidentialité et données personnelles
+Ce pack est destiné à des élèves, dont des mineurs.
+
+À l'installation et à chaque mise à jour, l'extension écrit `telemetry.telemetryLevel` à `off` dans les paramètres **utilisateur** de VS Code (global, sans confirmation). Python, Pylance et Live Preview n'envoient alors plus de données d'usage ni d'erreurs à Microsoft. Pour la réactiver : Paramètres > « telemetry.telemetryLevel ».
+
+Même télémétrie coupée, certaines extensions contactent des serveurs pour télécharger ou vérifier des versions (le serveur voit l'adresse IP) : GitHub (Raspberry Pi Pico, draw.io), PyPA (Raspberry Pi Pico), npm, GitHub et micropython.org (Kablix). Par défaut, draw.io fonctionne hors ligne ; en mode en ligne, le contenu des diagrammes transite par `embed.diagrams.net`.
+
+L'extension de traduction des commentaires a été retirée du pack, car elle envoyait le texte des commentaires à un service tiers. L'établissement doit informer les élèves (et leurs représentants légaux) de ces traitements.

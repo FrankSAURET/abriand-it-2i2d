@@ -5,7 +5,7 @@ exports.deactivate = deactivate;
 const vscode = require("vscode");
 const cp = require("child_process");
 const semver = require("semver");
-const CURRENT_VERSION = '2026.8.0';
+const CURRENT_VERSION = '2026.10.0';
 async function detectAndSetPythonPath() {
     return new Promise((resolve) => {
         try {
@@ -40,6 +40,8 @@ async function detectAndSetPythonPath() {
 async function configurer(context) {
     try {
         await detectAndSetPythonPath();
+        // Télémétrie coupée par défaut (élèves, dont des mineurs) — voir « Confidentialité » dans le README
+        await vscode.workspace.getConfiguration('telemetry').update('telemetryLevel', 'off', vscode.ConfigurationTarget.Global);
         vscode.window.showInformationMessage('ABriand IT-2I2D : configuration terminée.');
         await context.globalState.update('numVersionPre', CURRENT_VERSION);
     }
